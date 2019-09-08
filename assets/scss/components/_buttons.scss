@@ -1,0 +1,22 @@
+/*Button*/
+
+.button{
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 5px ;
+    border-radius: 50px;
+    background: red;
+    color: white;
+}
+.button:hover{
+    background: $navgrey;
+    color: white;
+    transition-duration: 400ms;
+    a:hover{
+        color: white;
+    }
+}
